@@ -114,6 +114,7 @@
 @property (nonatomic) CGFloat columnWidth;
 @property (nonatomic) CGFloat sectionColumnHeaderWidth;
 
+- (MDSpreadViewDescriptor *)spreadViewDataRequestor;
 - (void)reloadData;
 - (NSIndexPath *)indexPathForSelectedRow; 
 - (void)selectRowAtIndexPath:(NSIndexPath *)indexPath animated:(BOOL)animated scrollPosition:(UITableViewScrollPosition)scrollPosition;

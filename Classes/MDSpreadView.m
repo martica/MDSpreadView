@@ -208,6 +208,10 @@
     [self layoutSubviews];
 }
 
+- (MDSpreadViewDescriptor *)spreadViewDataRequestor {
+    return descriptor;
+}
+
 - (void)reloadData
 {
     [CATransaction begin];
